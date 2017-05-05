@@ -1,5 +1,6 @@
 class DoadoresController < ApplicationController
   before_action :set_doadore, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /doadores
   # GET /doadores.json
