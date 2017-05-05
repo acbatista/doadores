@@ -1,0 +1,2 @@
+class Doadore < ApplicationRecord
+end

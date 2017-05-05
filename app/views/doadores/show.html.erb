@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @doadore.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @doadore.email %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @doadore.telefone %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @doadore.tipo %>
+</p>
+
+<%= link_to 'Edit', edit_doadore_path(@doadore) %> |
+<%= link_to 'Back', doadores_path %>
